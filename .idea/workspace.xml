@@ -2,15 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9218de2-e60b-4afc-af45-7cb2c1705fe6" name="默认的" comment="修改说明">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_29_030750_add_activation_to_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/backup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/geoip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/MigrationsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/ar/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/cs/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/da/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/de/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/en/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/es/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/fa/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/fi/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/fr/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/hi/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/id/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/it/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/nl/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/pl/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/pt-BR/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/ro/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/ru/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/tr/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/uk/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/zh-CN/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/zh-TW/notifications.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/weibo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weibo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,6 +152,19 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/spatie/temporary-directory" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-backup" />
+      <path value="$PROJECT_DIR$/vendor/spatie/db-dumper" />
+      <path value="$PROJECT_DIR$/vendor/rap2hpoutre/laravel-log-viewer" />
+      <path value="$PROJECT_DIR$/vendor/orangehill/iseed" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/torann/geoip" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/simplesoftwareio/simple-qrcode" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aqJUVoPqQSNy6mlWfq3x98dAEN" />
@@ -186,7 +227,11 @@
       <workItem from="1587869920332" duration="1702000" />
       <workItem from="1587959191649" duration="235000" />
       <workItem from="1588129715436" duration="1388000" />
-      <workItem from="1589264180524" duration="1547000" />
+      <workItem from="1589264180524" duration="3346000" />
+      <workItem from="1589274322012" duration="817000" />
+      <workItem from="1589275344521" duration="4852000" />
+      <workItem from="1590029259355" duration="272000" />
+      <workItem from="1590029766293" duration="1657000" />
     </task>
     <task id="LOCAL-00001" summary="修改说明">
       <created>1587457304974</created>

@@ -5,13 +5,15 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Auth;
+use Illuminate\Support\Facades\App;
 use Mail;
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 class UsersController extends Controller
 {
     public function __construct()
     {
         $this->middleware('auth', [
-            'except' => ['show', 'create', 'store','index','confirmEmail']
+            'except' => ['show', 'create', 'store','index','confirmEmail','test']
         ]);
 
         $this->middleware('guest', [
@@ -20,6 +22,8 @@ class UsersController extends Controller
     }
     public function index()
     {
+
+
         $users = User::paginate(10);
         return view('users.index', compact('users'));
     }
@@ -112,6 +116,24 @@ class UsersController extends Controller
         Auth::login($user);
         session()->flash('success', '恭喜你，激活成功！');
         return redirect()->route('users.show', [$user]);
+    }
+
+    public function test(){
+//                $pdf = App::make('dompdf.wrapper');
+//        $pdf->loadHTML('<h1>Test</h1>');
+//        return $pdf->stream();
+
+
+//        return App::make('dompdf.wrapper')->loadFile('https://www.baidu.com/')->save('/path-to/my_stored_file.pdf')->stream('download.pdf');
+
+
+//        $ip = $_GET['ip'];
+//        $sre= geoip($ip)->toArray();
+//        dump($sre);
+
+//       echo   QrCode::generate('Hello World!');
+      echo QrCode::size(100)->color(255,0,255)->backgroundColor(255,255,0)->margin(100)->generate('Hello,Laravel!');
+//        QrCode::format('png')->size(200)->merge('参数1','参数2')->generate('LaravelAcademy',public_path('qrcodes/qrcode.png'));
     }
 
 }
